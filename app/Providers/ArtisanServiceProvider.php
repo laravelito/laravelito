@@ -48,7 +48,6 @@ class ArtisanServiceProvider extends ServiceProvider
      */
     protected $devCommands = [
         'AppName' => 'command.app.name',
-        'AuthMake' => 'command.auth.make',
         'ConsoleMake' => 'command.console.make',
         'ControllerMake' => 'command.controller.make',
         'EventGenerate' => 'command.event.generate',
