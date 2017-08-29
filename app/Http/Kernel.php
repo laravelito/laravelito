@@ -33,12 +33,7 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
-        ],
-
-        'api' => [
-            'throttle:60,1',
-            'bindings',
-        ],
+        ]
     ];
 
     /**
@@ -49,7 +44,6 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
-        'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class
     ];
 }
