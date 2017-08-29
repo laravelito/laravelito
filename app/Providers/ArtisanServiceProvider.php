@@ -27,8 +27,6 @@ class ArtisanServiceProvider extends ServiceProvider
         'RouteCache' => 'command.route.cache',
         'RouteClear' => 'command.route.clear',
         'RouteList' => 'command.route.list',
-        'ScheduleFinish' => ScheduleFinishCommand::class,
-        'ScheduleRun' => ScheduleRunCommand::class,
         'StorageLink' => 'command.storage.link',
         'Up' => 'command.up',
         'ViewClear' => 'command.view.clear',
