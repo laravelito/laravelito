@@ -50,7 +50,6 @@ return [
 
         // Application Service Providers
         App\Providers\AppServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
     ],
@@ -65,7 +64,6 @@ return [
         'Config' => Illuminate\Support\Facades\Config::class,
         'Cookie' => Illuminate\Support\Facades\Cookie::class,
         'Crypt' => Illuminate\Support\Facades\Crypt::class,
-        'Event' => Illuminate\Support\Facades\Event::class,
         'File' => Illuminate\Support\Facades\File::class,
         'Gate' => Illuminate\Support\Facades\Gate::class,
         'Hash' => Illuminate\Support\Facades\Hash::class,
