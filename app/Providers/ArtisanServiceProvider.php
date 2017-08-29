@@ -44,7 +44,6 @@ class ArtisanServiceProvider extends ServiceProvider
         'EventGenerate' => 'command.event.generate',
         'EventMake' => 'command.event.make',
         'ListenerMake' => 'command.listener.make',
-        'MailMake' => 'command.mail.make',
         'MiddlewareMake' => 'command.middleware.make',
         'ModelMake' => 'command.model.make',
         'PolicyMake' => 'command.policy.make',
