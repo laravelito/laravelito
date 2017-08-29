@@ -51,6 +51,6 @@ return [
 
     ],
 
-    'prefix' => 'laravel',
+    'prefix' => 'laravelito',
 
 ];

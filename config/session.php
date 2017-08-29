@@ -20,7 +20,7 @@ return [
 
     'lottery' => [2, 100],
 
-    'cookie' => 'laravel_session',
+    'cookie' => 'laravelito_session',
 
     'path' => '/',
 

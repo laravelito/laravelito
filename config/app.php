@@ -2,7 +2,7 @@
 
 return [
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Laravelito'),
 
     'env' => env('APP_ENV', 'production'),
 
