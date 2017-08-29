@@ -2,7 +2,7 @@
 
 return [
 
-    'driver' => env('SESSION_DRIVER', 'file'), // Supported: "file", "cookie", "apc", "memcached", "redis" & "array".
+    'driver' => env('SESSION_DRIVER', 'file'), // Supported: "file", "cookie", "apc" & "array".
 
     'lifetime' => 120,
 
