@@ -2,8 +2,6 @@
 
 namespace App\Providers;
 
-use Illuminate\Console\Scheduling\ScheduleFinishCommand;
-use Illuminate\Console\Scheduling\ScheduleRunCommand;
 use Illuminate\Foundation\Providers\ArtisanServiceProvider as ServiceProvider;
 
 class ArtisanServiceProvider extends ServiceProvider
@@ -17,7 +15,6 @@ class ArtisanServiceProvider extends ServiceProvider
         'CacheClear' => 'command.cache.clear',
         'CacheForget' => 'command.cache.forget',
         'ClearCompiled' => 'command.clear-compiled',
-        'ClearResets' => 'command.auth.resets.clear',
         'ConfigCache' => 'command.config.cache',
         'ConfigClear' => 'command.config.clear',
         'Down' => 'command.down',
