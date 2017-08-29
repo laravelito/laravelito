@@ -49,8 +49,6 @@ class ArtisanServiceProvider extends ServiceProvider
         'MailMake' => 'command.mail.make',
         'MiddlewareMake' => 'command.middleware.make',
         'ModelMake' => 'command.model.make',
-        'NotificationMake' => 'command.notification.make',
-        'NotificationTable' => 'command.notification.table',
         'PolicyMake' => 'command.policy.make',
         'ProviderMake' => 'command.provider.make',
         'RequestMake' => 'command.request.make',
