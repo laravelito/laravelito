@@ -39,9 +39,6 @@ return [
         // Laravelito Service Providers
         App\Providers\ConsoleSupportServiceProvider::class,
 
-        // Package Service Providers...
-        Laravel\Tinker\TinkerServiceProvider::class,
-
         // Application Service Providers
         App\Providers\AppServiceProvider::class,
         App\Providers\RouteServiceProvider::class,

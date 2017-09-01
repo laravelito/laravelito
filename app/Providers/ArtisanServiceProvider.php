@@ -21,6 +21,8 @@ class ArtisanServiceProvider extends ServiceProvider
         'Environment' => 'command.environment',
         'KeyGenerate' => 'command.key.generate',
         'Optimize' => 'command.optimize',
+        'PackageDiscover' => 'command.package.discover',
+        'Preset' => 'command.preset',
         'RouteCache' => 'command.route.cache',
         'RouteClear' => 'command.route.clear',
         'RouteList' => 'command.route.list',

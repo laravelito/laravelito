@@ -20,7 +20,10 @@ return [
 
     'lottery' => [2, 100],
 
-    'cookie' => 'laravelito_session',
+    'cookie' => env(
+        'SESSION_COOKIE',
+        str_slug(env('APP_NAME', 'laravelito'), '_').'_session'
+    ),
 
     'path' => '/',
 
@@ -29,5 +32,7 @@ return [
     'secure' => env('SESSION_SECURE_COOKIE', false),
 
     'http_only' => true,
+
+    'same_site' => null
 
 ];
